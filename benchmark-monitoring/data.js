@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654987192537,
+  "lastUpdate": 1657323449854,
   "repoUrl": "https://github.com/fantasy-peak/async_simple",
   "entries": {
     "C++ Benchmark": [
@@ -1164,6 +1164,102 @@ window.BENCHMARK_DATA = {
             "value": 72262238.79999907,
             "unit": "ns/iter",
             "extra": "iterations: 10\ncpu: 57322280.000000164 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2931408816@qq.com",
+            "name": "大黄老鼠",
+            "username": "PikachuHy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab70389831cb2b9be060fd66c913833c000843fc",
+          "message": "fix typo (#124)",
+          "timestamp": "2022-07-02T13:20:35+08:00",
+          "tree_id": "ccf48a03f9d471ae3cd7ebc5fb20cbc2e2878875",
+          "url": "https://github.com/fantasy-peak/async_simple/commit/ab70389831cb2b9be060fd66c913833c000843fc"
+        },
+        "date": 1657323448753,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "Future_chain",
+            "value": 23469.04846066144,
+            "unit": "ns/iter",
+            "extra": "iterations: 50866\ncpu: 15221.517320017301 ns\nthreads: 1"
+          },
+          {
+            "name": "Future_collectAll",
+            "value": 10881460.988505896,
+            "unit": "ns/iter",
+            "extra": "iterations: 87\ncpu: 8932818.390804596 ns\nthreads: 1"
+          },
+          {
+            "name": "async_simple_Lazy_chain",
+            "value": 17608.691959258762,
+            "unit": "ns/iter",
+            "extra": "iterations: 39076\ncpu: 17606.978708158455 ns\nthreads: 1"
+          },
+          {
+            "name": "async_simple_Lazy_collectAll",
+            "value": 9592801.971830918,
+            "unit": "ns/iter",
+            "extra": "iterations: 71\ncpu: 9591946.478873242 ns\nthreads: 1"
+          },
+          {
+            "name": "RescheduleLazy_chain",
+            "value": 45970.86344833552,
+            "unit": "ns/iter",
+            "extra": "iterations: 46173\ncpu: 12968.436099018913 ns\nthreads: 1"
+          },
+          {
+            "name": "RescheduleLazy_collectAll",
+            "value": 22722351.720999997,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 23635.20000000019 ns\nthreads: 1"
+          },
+          {
+            "name": "Uthread_switch",
+            "value": 103399541.00000373,
+            "unit": "ns/iter",
+            "extra": "iterations: 7\ncpu: 103118857.14285715 ns\nthreads: 1"
+          },
+          {
+            "name": "Uthread_async",
+            "value": 103968861.71428475,
+            "unit": "ns/iter",
+            "extra": "iterations: 7\ncpu: 103600042.85714285 ns\nthreads: 1"
+          },
+          {
+            "name": "Uthread_await",
+            "value": 103386269.85713972,
+            "unit": "ns/iter",
+            "extra": "iterations: 7\ncpu: 103200628.57142861 ns\nthreads: 1"
+          },
+          {
+            "name": "Uthread_collectAll",
+            "value": 11323060.546875041,
+            "unit": "ns/iter",
+            "extra": "iterations: 64\ncpu: 10765821.875000011 ns\nthreads: 1"
+          },
+          {
+            "name": "ThreadPool_noWorkSteal",
+            "value": 449407783.3333373,
+            "unit": "ns/iter",
+            "extra": "iterations: 3\ncpu: 200841766.66666663 ns\nthreads: 1"
+          },
+          {
+            "name": "ThreadPool_withWorkSteal",
+            "value": 77631296.49999964,
+            "unit": "ns/iter",
+            "extra": "iterations: 14\ncpu: 48871678.57142861 ns\nthreads: 1"
           }
         ]
       }
